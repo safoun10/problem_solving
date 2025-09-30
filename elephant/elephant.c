@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i, input, result;
+    int input, result;
     scanf("%d", &input);
 
     if (input > 5)
