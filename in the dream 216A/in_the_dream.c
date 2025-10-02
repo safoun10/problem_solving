@@ -9,17 +9,17 @@ int main()
         scanf("%f %f %f %f", &a, &b, &c, &d);
         if ((a / 2) - 1 > b || (b / 2) - 1 > a)
         {
-            printf("no");
+            printf("no\n");
         }
         else
         {
             if (((c - a) / 2) - 1 > (d - b) || ((d - b) / 2) - 1 > (c - a))
             {
-                printf("no");
+                printf("no\n");
             }
             else
             {
-                printf("yes");
+                printf("yes\n");
             }
         }
     }
