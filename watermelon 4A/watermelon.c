@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num, result;
+    int num;
     scanf("%d", &num);
     if (num == 2 || num % 2 != 0)
     {
