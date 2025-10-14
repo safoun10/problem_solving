@@ -2,17 +2,28 @@
 
 int main()
 {
-    int limit;
+    int limit, num, check, result = 10;
     scanf("%d", &limit);
     for (int i = 1; i <= limit; i++)
     {
-        char num[10], result;
-        scanf("%s", &num);
-
-        printf("%c\n", result);
+        scanf("%d", &num);
+        while (num > 0)
+        {
+            check = num % 10;
+            if (check == 0)
+            {
+                result = 0;
+                break;
+            }
+            else if (check < result)
+            {
+                result = check;
+            }
+            num /= 10;
+        }
+        printf("%d\n", result);
+        result = 10;
     }
 
     return 0;
 }
-
-// unfinished and unsolved problem :(
