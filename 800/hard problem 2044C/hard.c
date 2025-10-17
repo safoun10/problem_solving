@@ -42,5 +42,6 @@ int main()
         result_total = first_row_seated + second_row_seated + extra_seating;
         printf("%d\n", result_total);
     }
+    
     return 0;
 }
